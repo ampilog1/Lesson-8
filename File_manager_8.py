@@ -45,7 +45,7 @@ while True:
             print('Такая папка уже существует: ')
     elif choice == '2':
         name_dir = input('введите название папки: ')
-        if  os.path.exists(name_dir):
+        if os.path.exists(name_dir):
             os.rmdir(name_dir)
         else:
             print('Такой папки не существует: ')
